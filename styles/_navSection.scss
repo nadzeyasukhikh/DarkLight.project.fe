@@ -1,0 +1,52 @@
+@import "variables";
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: $first-background-color;
+    align-items: center;
+}
+
+.logoImg{
+    display: flex;
+    margin: 20px 70px;
+}
+.ordTod {
+    margin-right: 70px; 
+    
+}
+.ordTodBtn{
+    width: 222px;
+    height: 66px;
+    background-color: #FFCA42;
+    border: 2px solid #FFCA42;
+    font-size: 19px;
+    color: #1B3764;
+}
+.iconNav{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 12px;
+    gap: 10px;
+}
+
+.navIcon{
+    color: #F6F8FC;
+font-family: Inter;
+font-size: 17px;
+background-color: $first-background-color;
+border: $first-background-color;
+margin-left: 30px;
+}
+.navIcon:hover {
+    color: #FFCA42;
+}
+.iconImgIcon {
+    padding: 14px 14px;
+    width: 45px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFF;
+}

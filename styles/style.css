@@ -1,0 +1,172 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1B3764;
+  align-items: center;
+}
+
+.logoImg {
+  display: flex;
+  margin: 20px 70px;
+}
+
+.ordTod {
+  margin-right: 70px;
+}
+
+.ordTodBtn {
+  width: 222px;
+  height: 66px;
+  background-color: #FFCA42;
+  border: 2px solid #FFCA42;
+  font-size: 19px;
+  color: #1B3764;
+}
+
+.iconNav {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+.navIcon {
+  color: #F6F8FC;
+  font-family: Inter;
+  font-size: 17px;
+  background-color: #1B3764;
+  border: #1B3764;
+  margin-left: 30px;
+}
+
+.navIcon:hover {
+  color: #FFCA42;
+}
+
+.iconImgIcon {
+  padding: 14px 14px;
+  width: 45px;
+  height: 45px;
+  background-color: #FFFFFF;
+  border: 2px solid #FFF;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 30px;
+  background-color: #1B3764;
+}
+
+.footerBtn button {
+  background-color: #1B3764;
+  width: 55px;
+  height: 55px;
+  border: 1px solid #FFCA42;
+  margin-top: 20px;
+}
+
+.footerBtn button:not(:first-child) {
+  margin-left: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  color: #B4C7E7;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.addressInfo {
+  display: flex;
+  gap: 28px;
+}
+
+.mailInfo {
+  display: flex;
+  gap: 50px;
+}
+
+.phoneInfo {
+  display: flex;
+  gap: 35px;
+}
+
+li {
+  color: #B4C7E7;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.liText {
+  color: #FFF;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+span {
+  margin-right: 5px;
+  color: #FFCA42;
+}
+
+body {
+  background-color: #1B3764;
+}
+
+.mainOne {
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.linePar {
+  display: flex;
+  gap: 14px;
+}
+
+.line {
+  width: 35px;
+  height: 2px;
+  background: #FFCA42;
+  margin-top: 28px;
+}
+
+.parTextOne {
+  font-size: 21px;
+  color: #FFF;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 64px;
+  max-width: 512px;
+}
+
+.mainOneInfo {
+  padding-top: 147px;
+  padding-left: 23px;
+}
+
+.parTextTo {
+  max-width: 540px;
+}
+
+.btnTo {
+  margin-top: 42px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cardo;
+}
+
+/*# sourceMappingURL=style.css.map */
