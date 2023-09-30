@@ -19,7 +19,7 @@ body {
 .line{
     width: 35px;
 height: 2px;
-background: #FFCA42;
+background: $yellow-color;
 margin-top: 28px;
 }
 .parTextOne{
@@ -66,7 +66,7 @@ a {
     width: 16px;
 height: 16px;
 border-radius: 100px;
-background: #FFCA42;
+background: $yellow-color;
 margin-top: 10px;
 }
 .pagLenRatText{

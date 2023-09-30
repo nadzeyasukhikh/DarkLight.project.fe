@@ -5,12 +5,12 @@
 }
 .authorText {
   font-size: 42px;
-  color: #1b3764;
+  color: $first-background-color;
 }
 .divMainToo {
   width: 50px;
   height: 3px;
-  background: #ffca42;
+  background: $yellow-color;
   margin-left: 48%;
   margin-top: 23px;
 }
@@ -33,11 +33,11 @@
   padding-top: 38px;
 }
 .atomOneText {
-  color: #1b3764;
+  color: $first-background-color;
   font-size: 32px;
 }
 .textPrice {
-  color: #ffca42;
+  color: $yellow-color;
   font-size: 21px;
 }
 .bigText {
@@ -54,11 +54,11 @@
   width: 16px;
   height: 16px;
   border-radius: 100px;
-  background: #ffca42;
+  background: $yellow-color;
   margin-top: 24px;
 }
 .printBook {
-  color: #1b3764;
+  color: $first-background-color;
   font-size: 24px;
 }
 .centerDownMainToo {
@@ -88,13 +88,14 @@
 .divMainToo2{
     width: 50px;
   height: 3px;
-  background: #ffca42;
+  background: $yellow-color;
   margin-top: 23px;
 }
 .bigText2{
     color: #969aa0;
     font-family: Inter;
     font-size: 19px; 
+    line-height: 34.2px;
     max-width: 550px;
     margin-top: 32px;
 }
@@ -104,7 +105,7 @@
     
 }
 .numberTexTex{
-    color: #1B3764;
+    color: $first-background-color;
     font-size: 54px;
 }
 .smoleText{
@@ -115,22 +116,24 @@ font-size: 17px;
 .numberTextMeed{
     width: 1px;
 height: 98px;
-background: #FFCA42;
+background: $yellow-color;
 margin-left: 20px;
 margin-top: 20px;
 margin-right: 20px;
 }
 .scanText{
     display: flex;
-    background: #1B3764;
+    background: $first-background-color;
     gap: 40px;
     margin-top: 54px;
+    margin-bottom: 30px;
+    max-width: 465px;
 }
 .scanImg {
    padding: 16px 0 16px 20px;
 }
 .scanParText {
-    color: #FFCA42;
+    color: $yellow-color;
     font-size: 22px;
 }
 .scanMailPhone{
