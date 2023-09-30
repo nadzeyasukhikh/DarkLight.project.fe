@@ -1,5 +1,33 @@
 @import "variables";
 
-.mainToo h2 {
-    margin-left: 50px;
+.mainToo {
+  background: #fff;
+}
+.authorText {
+    font-size: 42px;
+  color: #1B3764;
+  
+}
+.divMainToo {
+  width: 50px;
+  height: 3px;
+  background: #ffca42;
+  margin-left: 48%;
+  margin-top: 23px;
+}
+.upMainToo{
+    padding-top: 65px;
+    text-align: center;
+}
+.centerRight {
+    display: flex;
+    gap: 30px;
+    
+}
+.centerUpmainToo{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.mainTooBookInfo{
+    padding-top: 38px;
 }
