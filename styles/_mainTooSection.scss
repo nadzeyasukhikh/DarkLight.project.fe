@@ -120,3 +120,24 @@ margin-left: 20px;
 margin-top: 20px;
 margin-right: 20px;
 }
+.scanText{
+    display: flex;
+    background: #1B3764;
+    gap: 40px;
+    margin-top: 54px;
+}
+.scanImg {
+   padding: 16px 0 16px 20px;
+}
+.scanParText {
+    color: #FFCA42;
+    font-size: 22px;
+}
+.scanMailPhone{
+    color: #B4C7E7;
+font-family: Inter;
+font-size: 18px;
+}
+.scanParInfo {
+    margin-top: 15px;
+}
