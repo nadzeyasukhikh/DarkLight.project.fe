@@ -214,7 +214,7 @@ a {
 
 .authorText {
   font-size: 42px;
-  color: #1B3764;
+  color: #1b3764;
 }
 
 .divMainToo {
@@ -236,12 +236,116 @@ a {
 }
 
 .centerUpmainToo {
-  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 60px;
 }
 
 .mainTooBookInfo {
   padding-top: 38px;
+}
+
+.atomOneText {
+  color: #1b3764;
+  font-size: 32px;
+}
+
+.textPrice {
+  color: #ffca42;
+  font-size: 21px;
+}
+
+.bigText {
+  max-width: 250px;
+  color: #969aa0;
+  font-family: Inter;
+  font-size: 19px;
+}
+
+.poolCiclPar {
+  display: flex;
+  gap: 10px;
+}
+
+.poolCirc2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background: #ffca42;
+  margin-top: 24px;
+}
+
+.printBook {
+  color: #1b3764;
+  font-size: 24px;
+}
+
+.centerDownMainToo {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 140px;
+}
+
+.imgDown {
+  position: absolute;
+  top: 44%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+.rightDounImg {
+  padding-top: 110px;
+}
+
+.leftDownInfo {
+  margin-top: 90px;
+}
+
+.divMainToo2 {
+  width: 50px;
+  height: 3px;
+  background: #ffca42;
+  margin-top: 23px;
+}
+
+.bigText2 {
+  color: #969aa0;
+  font-family: Inter;
+  font-size: 19px;
+  max-width: 550px;
+  margin-top: 32px;
+}
+
+.numbersTextInfo {
+  display: flex;
+  margin-top: 34px;
+}
+
+.numberTexTex {
+  color: #1B3764;
+  font-size: 54px;
+}
+
+.smoleText {
+  color: #969AA0;
+  font-family: Inter;
+  font-size: 17px;
+}
+
+.numberTextMeed {
+  width: 1px;
+  height: 98px;
+  background: #FFCA42;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 * {
