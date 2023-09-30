@@ -22,10 +22,10 @@ nav.innerHTML = `
         </div>
     </div>
     <div>
-        <button class="navIcon">Home</button>
-        <button class="navIcon">Author</button>
-        <button class="navIcon">Companies</button>
-        <button class="navIcon">Articles</button>
+        <button class="navIcon home">Home</button>
+        <button class="navIcon author">Author</button>
+        <button class="navIcon companies">Companies</button>
+        <button class="navIcon articles">Articles</button>
     </div>
     <div class="ordTod">
         <button class="ordTodBtn">Order Today</button>
@@ -68,7 +68,7 @@ footer.innerHTML = `
   </ul>
 </div>
 <div>
-    <p class="liText"> Keep in Touch</з>
+    <p class="liText"> Keep in Touch</p>
     <div class="addressInfo">
     <div>
     <p>Address :<p/>
@@ -96,3 +96,15 @@ footer.innerHTML = `
 </div>
 </div>
 `
+const mainToo = document.querySelector(".mainToo")
+const author = document.querySelector(".author")
+const mainOne = document.querySelector(".mainOne")
+const home = document.querySelector(".home")
+author.addEventListener("click", () => {
+    mainOne.style.display = "none";
+    mainToo.style.display = "block"
+})
+home.addEventListener("click", () => {
+    mainOne.style.display = "flex";
+    mainToo.style.display = "none"
+})

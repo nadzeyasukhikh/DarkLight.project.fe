@@ -6,6 +6,10 @@ body {
     margin-top: 100px;
     margin-left: 70px;
     margin-right: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .linePar{
@@ -31,9 +35,45 @@ h1 {
     padding-top: 147px;
     padding-left: 23px;
 }
+.mainOneImg{
+    padding-right: 23px;
+}
 .parTextTo{
     max-width: 540px;
 }
 .btnTo{
     margin-top: 42px;
+}
+a {
+    color: #FFF;
+    margin-left: 50px;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 2px;
+}
+.pagLenRat{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.circ{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.poolCirc{
+    width: 16px;
+height: 16px;
+border-radius: 100px;
+background: #FFCA42;
+margin-top: 10px;
+}
+.pagLenRatText{
+    font-size: 24px;
+    color: #FFF;
+}
+.pagLenRatPar{
+    font-size: 17px;
+    padding-left: 25px;
 }
