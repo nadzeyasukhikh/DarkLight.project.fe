@@ -1,0 +1,53 @@
+@import "variables";
+
+.mainArticles{
+    background-color: #fff;
+}
+.mainArticlesUp{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 120px;
+}
+.mainArticleInfo{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 88px;
+  gap: 104px;
+}
+.articlesRamaRama{
+    position: relative;
+    margin-top: 80px;
+    width: 555px;
+height: 652px;
+border: 10px solid #FFCA42;
+}
+.articleImgPosit{
+    
+        position: absolute;
+        top: 45%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+      
+}
+.articleInfoDiv{
+    width: 50px;
+height: 50px;
+border-radius: 100px;
+background: $yellow-color;
+text-align: center;
+
+}
+.articleNum{
+    color: $first-background-color;
+    font-size: 23px;
+    padding: 8px;
+}
+.articleText{
+    max-width: 210px;
+    color: $first-background-color;
+    margin-top: 30px;
+}

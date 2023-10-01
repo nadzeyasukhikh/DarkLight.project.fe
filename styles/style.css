@@ -286,17 +286,23 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 150px;
-  position: relative;
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
   padding-bottom: 140px;
 }
 
+.ramaDown {
+  position: relative;
+  width: 555px;
+  height: 652px;
+  border: 10px solid #FFCA42;
+}
+
 .imgDown {
   position: absolute;
   top: 44%;
-  left: 13%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 
@@ -445,11 +451,76 @@ a {
   margin-bottom: 92px;
 }
 
+.mainArticles {
+  background-color: #fff;
+}
+
+.mainArticlesUp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 120px;
+}
+
+.mainArticleInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 88px;
+  gap: 104px;
+}
+
+.articlesRamaRama {
+  position: relative;
+  margin-top: 80px;
+  width: 555px;
+  height: 652px;
+  border: 10px solid #FFCA42;
+}
+
+.articleImgPosit {
+  position: absolute;
+  top: 45%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.articleInfoDiv {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: #FFCA42;
+  text-align: center;
+}
+
+.articleNum {
+  color: #1B3764;
+  font-size: 23px;
+  padding: 8px;
+}
+
+.articleText {
+  max-width: 210px;
+  color: #1B3764;
+  margin-top: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Cardo;
+}
+
+.mainToo,
+.mainCompanies,
+.mainArticles {
+  display: none;
+}
+
+.mainOne {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
