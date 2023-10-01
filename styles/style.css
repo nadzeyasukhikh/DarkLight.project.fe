@@ -31,7 +31,7 @@ nav {
 }
 
 .navIcon {
-  color: #F6F8FC;
+  color: #f6f8fc;
   font-family: Inter;
   font-size: 17px;
   background-color: #1B3764;
@@ -47,8 +47,8 @@ nav {
   padding: 14px 14px;
   width: 45px;
   height: 45px;
-  background-color: #FFFFFF;
-  border: 2px solid #FFF;
+  background-color: #ffffff;
+  border: 2px solid #fff;
 }
 
 .footerContainer {
@@ -79,7 +79,7 @@ footer ul {
 }
 
 p {
-  color: #B4C7E7;
+  color: #b4c7e7;
   font-size: 18px;
   margin-top: 15px;
 }
@@ -100,14 +100,14 @@ p {
 }
 
 li {
-  color: #B4C7E7;
+  color: #b4c7e7;
   font-family: Inter;
   font-size: 18px;
   line-height: 2;
 }
 
 .liText {
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   margin-bottom: 24px;
 }
@@ -144,11 +144,11 @@ body {
 
 .parTextOne {
   font-size: 21px;
-  color: #FFF;
+  color: #fff;
 }
 
 h1 {
-  color: #FFF;
+  color: #fff;
   font-size: 64px;
   max-width: 512px;
 }
@@ -171,10 +171,10 @@ h1 {
 }
 
 a {
-  color: #FFF;
+  color: #fff;
   margin-left: 50px;
   text-decoration: none;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #fff;
   padding-bottom: 2px;
 }
 
@@ -200,7 +200,7 @@ a {
 
 .pagLenRatText {
   font-size: 24px;
-  color: #FFF;
+  color: #fff;
 }
 
 .pagLenRatPar {
@@ -335,7 +335,7 @@ a {
 }
 
 .smoleText {
-  color: #969AA0;
+  color: #969aa0;
   font-family: Inter;
   font-size: 17px;
 }
@@ -368,13 +368,41 @@ a {
 }
 
 .scanMailPhone {
-  color: #B4C7E7;
+  color: #b4c7e7;
   font-family: Inter;
   font-size: 18px;
 }
 
 .scanParInfo {
   margin-top: 15px;
+}
+
+.mainCompanies {
+  background-color: #fff;
+}
+
+.mainCompaniesUp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  margin-left: 78px;
+  margin-right: 78px;
+  text-align: center;
+  padding-bottom: 130px;
+}
+
+.mainComSmole {
+  color: #1B3764;
+  font-size: 24px;
+}
+
+.mainComBig {
+  color: #969AA0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 19px;
+  max-width: 297px;
+  line-height: 28.5px;
 }
 
 * {

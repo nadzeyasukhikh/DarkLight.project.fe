@@ -1,52 +1,49 @@
 @import "variables";
 
-
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: $first-background-color;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: $first-background-color;
+  align-items: center;
 }
 
-.logoImg{
-    display: flex;
-    margin: 20px 70px;
+.logoImg {
+  display: flex;
+  margin: 20px 70px;
 }
 .ordTod {
-    margin-right: 70px; 
-    
+  margin-right: 70px;
 }
-.ordTodBtn{
-    width: 222px;
-    height: 66px;
-    background-color: $yellow-color;
-    border: 2px solid $yellow-color;
-    font-size: 19px;
-    color: $first-background-color;
+.ordTodBtn {
+  width: 222px;
+  height: 66px;
+  background-color: $yellow-color;
+  border: 2px solid $yellow-color;
+  font-size: 19px;
+  color: $first-background-color;
 }
-.iconNav{
-    display: flex;
-    margin-left: 35px;
-    margin-top: 12px;
-    gap: 10px;
+.iconNav {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 12px;
+  gap: 10px;
 }
 
-.navIcon{
-    color: #F6F8FC;
-font-family: Inter;
-font-size: 17px;
-background-color: $first-background-color;
-border: $first-background-color;
-margin-left: 30px;
+.navIcon {
+  color: #f6f8fc;
+  font-family: Inter;
+  font-size: 17px;
+  background-color: $first-background-color;
+  border: $first-background-color;
+  margin-left: 30px;
 }
 .navIcon:hover {
-    color: $yellow-color;
+  color: $yellow-color;
 }
 .iconImgIcon {
-    padding: 14px 14px;
-    width: 45px;
-    height: 45px;
-    background-color: #FFFFFF;
-    border: 2px solid #FFF;
+  padding: 14px 14px;
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 2px solid #fff;
 }

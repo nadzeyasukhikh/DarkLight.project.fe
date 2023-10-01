@@ -100,11 +100,21 @@ const mainToo = document.querySelector(".mainToo")
 const author = document.querySelector(".author")
 const mainOne = document.querySelector(".mainOne")
 const home = document.querySelector(".home")
+const companies = document.querySelector(".companies")
+const mainCompanies = document.querySelector(".mainCompanies")
 author.addEventListener("click", () => {
     mainOne.style.display = "none";
-    mainToo.style.display = "block"
+    mainToo.style.display = "block";
+    mainCompanies.style.display = "none"
 })
 home.addEventListener("click", () => {
     mainOne.style.display = "flex";
-    mainToo.style.display = "none"
+    mainToo.style.display = "none";
+    mainCompanies.style.display = "none"
 })
+companies.addEventListener("click", () => {
+    mainOne.style.display = "none";
+    mainToo.style.display = "none";
+    mainCompanies.style.display = "block"
+})
+

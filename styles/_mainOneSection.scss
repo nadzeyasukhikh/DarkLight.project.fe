@@ -1,79 +1,78 @@
 @import "variables";
 body {
-    background-color: $first-background-color;
+  background-color: $first-background-color;
 }
-.mainOne{
-    margin-top: 100px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
+.mainOne {
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.linePar {
+  display: flex;
+  gap: 14px;
 }
-
-.linePar{
-    display: flex;
-    gap: 14px;
+.line {
+  width: 35px;
+  height: 2px;
+  background: $yellow-color;
+  margin-top: 28px;
 }
-.line{
-    width: 35px;
-height: 2px;
-background: $yellow-color;
-margin-top: 28px;
-}
-.parTextOne{
-    font-size: 21px;
-    color: #FFF;
+.parTextOne {
+  font-size: 21px;
+  color: #fff;
 }
 h1 {
-    color: #FFF;
-    font-size: 64px;
-    max-width: 512px;
+  color: #fff;
+  font-size: 64px;
+  max-width: 512px;
 }
-.mainOneInfo{
-    padding-top: 147px;
-    padding-left: 23px;
+.mainOneInfo {
+  padding-top: 147px;
+  padding-left: 23px;
 }
-.mainOneImg{
-    padding-right: 23px;
+.mainOneImg {
+  padding-right: 23px;
 }
-.parTextTo{
-    max-width: 540px;
+.parTextTo {
+  max-width: 540px;
 }
-.btnTo{
-    margin-top: 42px;
+.btnTo {
+  margin-top: 42px;
 }
 a {
-    color: #FFF;
-    margin-left: 50px;
-    text-decoration: none;
-    border-bottom: 1px solid #FFF;
-    padding-bottom: 2px;
+  color: #fff;
+  margin-left: 50px;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
 }
-.pagLenRat{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 47px;
+.pagLenRat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 47px;
 }
 
-.circ{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.circ {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.poolCirc{
-    width: 16px;
-height: 16px;
-border-radius: 100px;
-background: $yellow-color;
-margin-top: 10px;
+.poolCirc {
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background: $yellow-color;
+  margin-top: 10px;
 }
-.pagLenRatText{
-    font-size: 24px;
-    color: #FFF;
+.pagLenRatText {
+  font-size: 24px;
+  color: #fff;
 }
-.pagLenRatPar{
-    font-size: 17px;
-    padding-left: 25px;
+.pagLenRatPar {
+  font-size: 17px;
+  padding-left: 25px;
 }
