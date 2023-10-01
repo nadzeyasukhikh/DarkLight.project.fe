@@ -296,7 +296,7 @@ a {
   position: relative;
   width: 555px;
   height: 652px;
-  border: 10px solid #FFCA42;
+  border: 10px solid #ffca42;
 }
 
 .imgDown {
@@ -476,7 +476,7 @@ a {
   margin-top: 80px;
   width: 555px;
   height: 652px;
-  border: 10px solid #FFCA42;
+  border: 10px solid #ffca42;
 }
 
 .articleImgPosit {
@@ -504,6 +504,38 @@ a {
   max-width: 210px;
   color: #1B3764;
   margin-top: 30px;
+}
+
+.mainArticlesDown {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 180px;
+}
+
+.articlesDownTitle {
+  color: #1B3764;
+  font-size: 24px;
+  line-height: 33.6px;
+  max-width: 318px;
+  padding-left: 30px;
+}
+
+.articlesDownText {
+  color: #969aa0;
+  font-family: Inter;
+  font-size: 19px;
+  padding-left: 30px;
+  max-width: 358px;
+}
+
+.articlesDownData {
+  color: #1B3764;
+  font-family: Inter;
+  font-size: 16px;
+  padding-left: 232px;
 }
 
 * {

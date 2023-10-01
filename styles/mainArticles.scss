@@ -1,53 +1,77 @@
 @import "variables";
 
-.mainArticles{
-    background-color: #fff;
+.mainArticles {
+  background-color: #fff;
 }
-.mainArticlesUp{
-    
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-left: 80px;
-    margin-right: 80px;
-    padding-bottom: 120px;
+.mainArticlesUp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 120px;
 }
-.mainArticleInfo{
-    display: grid;
+.mainArticleInfo {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 88px;
   gap: 104px;
 }
-.articlesRamaRama{
-    position: relative;
-    margin-top: 80px;
-    width: 555px;
-height: 652px;
-border: 10px solid #FFCA42;
+.articlesRamaRama {
+  position: relative;
+  margin-top: 80px;
+  width: 555px;
+  height: 652px;
+  border: 10px solid #ffca42;
 }
-.articleImgPosit{
-    
-        position: absolute;
-        top: 45%;
-        left: 46%;
-        transform: translate(-50%, -50%);
-      
+.articleImgPosit {
+  position: absolute;
+  top: 45%;
+  left: 46%;
+  transform: translate(-50%, -50%);
 }
-.articleInfoDiv{
-    width: 50px;
-height: 50px;
-border-radius: 100px;
-background: $yellow-color;
-text-align: center;
-
+.articleInfoDiv {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: $yellow-color;
+  text-align: center;
 }
-.articleNum{
-    color: $first-background-color;
-    font-size: 23px;
-    padding: 8px;
+.articleNum {
+  color: $first-background-color;
+  font-size: 23px;
+  padding: 8px;
 }
-.articleText{
-    max-width: 210px;
-    color: $first-background-color;
-    margin-top: 30px;
+.articleText {
+  max-width: 210px;
+  color: $first-background-color;
+  margin-top: 30px;
+}
+.mainArticlesDown {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 180px;
+}
+.articlesDownTitle {
+  color: $first-background-color;
+  font-size: 24px;
+  line-height: 33.6px;
+  max-width: 318px;
+  padding-left: 30px;
+}
+.articlesDownText {
+  color: #969aa0;
+  font-family: Inter;
+  font-size: 19px;
+  padding-left: 30px;
+  max-width: 358px;
+}
+.articlesDownData {
+  color: $first-background-color;
+  font-family: Inter;
+  font-size: 16px;
+  padding-left: 232px;
 }
