@@ -509,7 +509,7 @@ a {
 .mainArticlesDown {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: 80px;
   margin-right: 80px;
   padding-bottom: 180px;
@@ -529,6 +529,7 @@ a {
   font-size: 19px;
   padding-left: 30px;
   max-width: 358px;
+  line-height: 33.6px;
 }
 
 .articlesDownData {
