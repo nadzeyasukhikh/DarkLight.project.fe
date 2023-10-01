@@ -1,26 +1,54 @@
 @import "variables";
 
-.mainCompanies{
-    background-color: #fff;
+.mainCompanies {
+  background-color: #fff;
 }
-.mainCompaniesUp{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 43px;
-    margin-left: 78px;
-    margin-right: 78px;
-    text-align: center;
-padding-bottom: 130px;
+.mainCompaniesUp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  margin-left: 78px;
+  margin-right: 78px;
+  text-align: center;
+  padding-bottom: 130px;
 }
-.mainComSmole{
-    color: #1B3764;
-    font-size: 24px;
+.mainComSmole {
+  color: #1b3764;
+  font-size: 24px;
 }
-.mainComBig{
-    color: #969AA0;
-text-align: center;
-font-family: Inter;
-font-size: 19px;
-max-width: 297px;
-line-height: 28.5px;
+.mainComBig {
+  color: #969aa0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 19px;
+  max-width: 297px;
+  line-height: 28.5px;
+}
+.mainCompaniesDown {
+  display: flex;
+  justify-content: space-between;
+  background-color: $first-background-color;
+  padding: 70px;
+}
+.mainComDownTitle {
+  color: #fff;
+  font-size: 45px;
+  padding-top: 20px;
+}
+.mainComDownDiv {
+  width: 50px;
+  height: 3px;
+  background: $yellow-color;
+  margin-top: 24px;
+}
+.mainComDownParagraf {
+  max-width: 540px;
+  color: #b4c7e7;
+  font-family: Inter;
+  font-size: 19px;
+  line-height: 28.5px;
+  margin-top: 27px;
+}
+.mainComDownInfo {
+  padding-top: 50px;
 }
